@@ -1,0 +1,52 @@
+.customRow {
+  display: 'flex';
+  flex-direction: 'row';
+}
+
+.customEllipsis {
+  white-space: 'nowrap';
+  width: '200px'; 
+  overflow: 'hidden';
+  text-overflow: 'ellipsis';
+}
+
+.customCol {
+  align-items: 'center';
+  display: 'flex';
+  flex-direction: 'column';
+}
+
+.grow1 {
+  flex-grow: 1;
+}
+
+.grow8 {
+  flex-grow: 8;
+}
+
+.customProfileTitle {
+  border-bottom: '1px black solid';
+  padding: '10px';
+  min-height: '2rem';
+}
+
+.customContainerProfile {
+  background: '#e8e8e8';
+  border-radius: '2px';
+  z-index: '1000';
+  max-width: '20rem';
+  min-height: '2rem';
+  margin: '0';
+  box-shadow: '0 0.5rem 1rem rgba(0,0,0,.15) !important';
+  /* webkitBoxShadow: '0 0.5rem 1rem rgba(0,0,0,.15) !important'; */
+  /* mozBoxShadow: '0 0.5rem 1rem rgba(0,0,0,.15) !important'; */
+  position: 'fixed';
+  inset: '3rem 8rem auto auto';
+  /* transform: 'translate(-130px, 36px)'; */
+  float: 'right';
+}
+
+.customProfileBody {
+  padding: '10px';
+  max-width: '20rem';
+}

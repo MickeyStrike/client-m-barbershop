@@ -1,0 +1,86 @@
+.customHeader {
+  z-index: 100;
+  padding: 0 5rem 0 5rem;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  /* background-color: #fef5ef; */
+  /* color: black !important; */
+  /* background-color: transparent; */
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.customIconsHeader {
+  color: white;
+  padding: 16px;
+}
+
+.customLogo {
+  color: white;
+  margin-top: 8px;
+  /* padding: 16px; */
+  /* padding-top: 16px; */
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.customUl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.customLi {
+  float: left;
+}
+
+.customIcon {
+  color: white;
+}
+
+.customLi > a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.customLi > a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.customLi > a:hover {
+  /* background-color: #111111; */
+  background-color: rgb(255, 130, 47);
+}
+
+.customIcon:hover {
+  color: rgb(255, 130, 47);
+}
+
+@media only screen and (max-width: 570px) {
+  .customLogo {
+    font-size: 15px;
+    margin-top: 16px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  /* .customLogo {
+    margin-top: 16px;
+    padding: 16px 4px 16px 4px;
+  } */
+  .customIconsHeader {
+    padding: 16px 4px 16px 4px;
+  }
+  .customHeader {
+    padding: 0 1rem 0 1rem
+  }
+}

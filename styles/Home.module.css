@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&family=Source+Sans+Pro:wght@200&display=swap');
+/* Hot Product */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.container {
+  min-height: 100vh;
+}
+
+.wrapperBackground {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.534);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  position: absolute
+}
+
+.textBarbershop {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.textSlogan {
+  font-size: 4rem;
+  color: rgb(255, 220, 24);
+  font-family: 'Playfair Display', serif;
+}
+
+.textHotProduct {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 20px;
+}
+
+.textDescriptionProduct {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777c87;
+  /* text-decoration: none solid rgb(119, 124, 135); */
+}
+
+.styleBackground {
+  /* background-color: white;
+  background-image: url('/assets/RS37761_GettyImages-506514876.jpg');
+  background-repeat: no-repeat; */
+  /* background-size: cover; */
+  width: 100%;
+  height: 100vh;
+}
+
+.prevButton {
+  position: absolute;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.nextButton {
+  position: absolute;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.spanSetting {
+  box-shadow: 0 3px 6px -4px #0000001f, 0 6px 16px #00000014, 0 9px 28px 8px #0000000d;
+  background-color: #fff;
+  /* color: rgba(0, 0, 0, 0.137); */
+  color: #000;
+  opacity: 0.3;
+  transition: color .3s;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  font-size: 22px;
+  border-radius: 22px;
+}
+
+.spanSetting:hover {
+  opacity: 1;
+}
+
+.ant-btn:active, .ant-btn:hover, .ant-btn:active {
+  border-color: rgb(255, 130, 47) !important;
+  color: white !important;
+  background: none !important;
+}
+
+.ant-btn-lg {}
+
+.ant-btn {
+  /* height: 40px;
+  padding: 6.4px 15px;
+  font-size: 16px;
+  border-radius: 2px;
+  line-height: 1.5715;
+
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  -webkit-box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+  cursor: pointer;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  height: 32px;
+  padding: 4px 15px;
+  font-size: 14px;
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.85);
+  border-color: #d9d9d9;
+  background: #fff; */
+}
+
+@media only screen and (max-width: 290px) {
+  .textBarbershop {
+    font-size: 1rem;
+  }
+  .textSlogan {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .textBarbershop {
+    font-size: 2rem;
+  }
+  .textSlogan {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .textBarbershop {
+    font-size: 3rem;
+  }
+  .textSlogan {
+    font-size: 2rem;
+  }
+}
