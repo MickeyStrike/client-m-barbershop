@@ -8,7 +8,7 @@ import { FormOutlined, InfoOutlined, HomeOutlined } from '@ant-design/icons';
 // submenu keys of first level
 const rootSubmenuKeys = ['sub1', 'sub2', 'sub4'];
 
-export default function menuMobile() {
+export default function MenuMobile() {
 
   const dispatch = useDispatch()
   
