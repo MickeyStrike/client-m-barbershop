@@ -130,7 +130,7 @@ export default function CardTransaction({ itemName, itemPrice, imageUrl, tagName
             />
           </Col>
           <Col span={6} style={{ alignItems: 'center', display: 'flex' }}>
-            <img src={imageUrl} alt="not found" height="70" />
+            <ImageNext src={imageUrl} alt="not found" height="70" width="70" />
           </Col>
           <Col span={12} xs={24} sm={12}>
             <Tag color="#2db7f5">{tagName}</Tag>
