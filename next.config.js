@@ -6,7 +6,8 @@ module.exports = {
     BASE_URL: process.env.BASE_URL,
   },
   experimental: {
-    styledComponents: true
+    styledComponents: true,
+    nextScriptWorkers: true,
   },
   images: {
     domains: ['drive.google.com'],
