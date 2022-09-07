@@ -7,7 +7,6 @@ module.exports = {
   },
   experimental: {
     styledComponents: true,
-    nextScriptWorkers: true,
   },
   images: {
     domains: ['drive.google.com'],
