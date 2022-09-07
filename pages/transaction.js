@@ -237,6 +237,7 @@ export default function Transaction() {
   }
 
   const handleSnapPayment = (token) => {
+    console.log(window.snap, 'window snap')
     window.snap.pay(token, {
       onSuccess: function(result){
         /* You may add your own implementation here */
